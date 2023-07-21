@@ -18,6 +18,7 @@
         <module>coupon-order</module>
         <module>distribution</module>
         <module>mall-common</module>
+        <module>mall-offline</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -31,6 +32,11 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <scope>test</scope>
                 <version>2.7.14</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>2.0.4</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.curator</groupId>
